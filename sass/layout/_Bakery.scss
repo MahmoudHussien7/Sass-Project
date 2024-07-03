@@ -1,0 +1,73 @@
+.Bakery {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    &__Content {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      background-color: #f9f9f9;
+  
+      &__Image {
+        width: 50%;
+        img {
+          width: 100%;
+          display: block;
+        }
+      }
+  
+      &__Text {
+        width: 50%;
+        flex: 1;
+        padding: 100px 30px;  
+
+
+        &__title {
+          font-size: 2em;
+          bottom: 20px;
+        }
+
+      h2{
+        margin-bottom: 20px;
+        position: relative;
+        &::after{
+            content: "";
+        display: block;
+        width: 50px;
+        height: 2px;
+        background-color: $main-color;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+
+        }
+      }
+        p {
+            margin-top: 30px;
+          margin-bottom: 20px;
+          line-height: 2;
+          font-size: 1rem;
+
+        }
+  
+        &__btn{
+            text-align: center;
+            margin: 10px 0;
+            padding: 10px 20px;
+            color: #ffffff;
+            background-color: $main-color ;
+            border: none ;
+            border-radius: 12px;
+
+
+        }
+        &__btn:hover{
+        @include eleHover($btn-color, $white-color);
+        border:2px solid $main-color;
+        color: $main-color;
+        }
+      }
+    }
+  }

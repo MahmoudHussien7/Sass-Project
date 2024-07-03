@@ -1,0 +1,20 @@
+@import "abstract/variables";
+@import "abstract/mixin";
+@import "abstract/placeholders";
+
+@import "base/typography";
+@import "base/reset";
+
+@import "layout/header";
+@import"layout/hero";
+@import "layout/service";
+@import "layout/Bakery";
+@import "layout/offer";
+@import "layout/statistics";
+
+
+@import "components/card";
+@import "components/title";
+@import "components/buttons";
+
+@import "pages/home";

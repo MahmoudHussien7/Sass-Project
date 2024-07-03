@@ -1,0 +1,8 @@
+.services{
+    &__grid{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: $gap;
+        justify-content: center;
+    }
+}

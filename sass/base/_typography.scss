@@ -1,0 +1,23 @@
+.card--font{
+    text-transform: capitalize;
+    @include font($titles-color, 16px,"Poppins", 600 );
+}
+
+.card__content--font{
+    @include font($text-color, 13px,"Open sans", 400 );
+}
+
+.card__content__price--font{
+    @include font($main-color, 16px,"Open sans", 700 );
+}
+
+.title--font {
+    text-transform: uppercase;
+    @include font($titles-color, 18px,"Open sans", 700 );
+}
+
+.btn--font{
+    text-transform: uppercase;
+    text-decoration: none;
+    @include font($btn-color, 13px,"Poppins", 700 );
+}
